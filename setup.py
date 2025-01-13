@@ -16,7 +16,7 @@ def get_requirements(file_path:str)->List[str]:
 
 setup(
 name='MACHINE LEARNING PROJ II',
-version='0.0.2',
+version='0.0.3',
 author='Shashank Shekhar',
 author_email='shashankshekharlkrmit1@gmail.com',
 packages=find_packages(),
