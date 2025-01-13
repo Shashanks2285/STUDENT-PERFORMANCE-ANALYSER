@@ -59,6 +59,10 @@ This project uses a combination of the following technologies:
   - `matplotlib` and `seaborn` for data visualization.
   - `scikit-learn` for machine learning algorithms and model evaluation.
 
+## Jupyter Notebook
+
+All exploratory data analysis (EDA) and model training are done in a Jupyter notebook file (.ipynb). This allows for an interactive approach to analyzing the data, building models, and evaluating their performance.
+
 ## Workflow
 
 The workflow of the project can be broken down into the following key steps:
