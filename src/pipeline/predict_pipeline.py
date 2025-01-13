@@ -12,10 +12,10 @@ class PredictPipeline:
         try:
             model_path=os.path.join("artifacts","model.pkl")
             preprocessor_path=os.path.join('artifacts','preprocessor.pkl')
-            print("Before Loading")
+            print("Loading started: ")
             model=load_object(file_path=model_path)
             preprocessor=load_object(file_path=preprocessor_path)
-            print("After Loading")
+            print("Loading done: ")
             data_scaled=preprocessor.transform(features)
             preds=model.predict(data_scaled)
             return preds
@@ -29,7 +29,7 @@ class CustomData:
     def __init__(  self,
         gender: str,
         race_ethnicity: str,
-        parental_level_of_education,
+        parental_level_of_education:str,
         lunch: str,
         test_preparation_course: str,
         reading_score: int,
