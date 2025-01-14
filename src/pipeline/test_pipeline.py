@@ -9,7 +9,7 @@ def test_predict_pipeline():
         data = CustomData(
             gender='male',
             race_ethnicity='group A',
-            parental_level_of_education='bachelor',
+            parental_level_of_education="bachelor's degree",
             lunch='standard',
             test_preparation_course='none',
             reading_score=75,
