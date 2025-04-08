@@ -69,5 +69,5 @@ def api_predict():
         return jsonify({'error': str(e)}), 500
 
 # ✅ Run Flask app
-if __name__ == "__main__":
-    app.run(debug=False)
+# if __name__ == "__main__":
+#     app.run(debug=False)
